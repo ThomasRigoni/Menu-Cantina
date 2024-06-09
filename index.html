@@ -21,23 +21,21 @@
             margin-top: 20px;
             font-size: 2.5em;
         }
-        .pdf-container {
-            width: 80%;
-            max-width: 800px;
-            border: 2px solid #FFD700;
-            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
-            margin-bottom: 20px;
+        .divider {
+            width: 50%;
+            border-top: 2px solid #FFD700;
+            margin: 20px 0;
         }
         .btn-download {
             background-color: #FFD700;
             color: #000;
             border: none;
-            padding: 10px 20px;
+            padding: 15px 30px;
             font-size: 1.2em;
             cursor: pointer;
             text-transform: uppercase;
             text-decoration: none;
-            margin-bottom: 20px;
+            margin-top: 20px;
             transition: background-color 0.3s ease;
         }
         .btn-download:hover {
@@ -47,9 +45,7 @@
 </head>
 <body>
     <h1>Menu Ristorante</h1>
-    <div class="pdf-container">
-        <embed src="fdsdcd.pdf" type="application/pdf" width="100%" height="600px" />
-    </div>
-    <a href="prova.pdf" download class="btn-download">Visualizza il PDF</a>
+    <div class="divider"></div>
+    <a href="prova.pdf" download class="btn-download">Scarica il PDF</a>
 </body>
 </html>
