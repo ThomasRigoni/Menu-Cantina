@@ -23,14 +23,14 @@
             align-items: center;
         }
         .line {
-            border-top: 4px solid gold; /* Ingrandisce le righe */
-            width: 150px; /* Aumenta la larghezza delle righe */
-            margin: 5px 0;
+            border-top: 0.3vw solid gold; /* Dimensioni ridotte delle righe */
+            width: 12vw; /* Ridotta la larghezza delle righe */
+            margin: 0.3vh 0;
         }
         .cantina {
             display: flex;
             align-items: center;
-            font-size: 3em; /* Ingrandisce la scritta CANTINA */
+            font-size: 4vw; /* Dimensioni ridotte della scritta CANTINA */
         }
         .cantina .line-container {
             display: flex;
@@ -38,26 +38,26 @@
             align-items: center;
         }
         .cantina span {
-            margin: 0 10px; /* Regola lo spazio tra la scritta e le righe */
+            margin: 0 0.8vw; /* Regola lo spazio tra la scritta e le righe */
         }
         .gottardo {
-            margin-top: -10px; /* Avvicina la scritta GOTTARDO a CANTINA */
-            font-size: 6em; /* Ingrandisce la scritta GOTTARDO */
+            margin-top: -1vh; /* Avvicina la scritta GOTTARDO a CANTINA */
+            font-size: 8vw; /* Dimensioni ridotte della scritta GOTTARDO */
         }
         .bottom-line {
-            border-top: 4px solid gold;
-            width: 100%;
-            margin-top: -84px; /* Avvicina la riga orizzontale alla scritta GOTTARDO */
+            border-top: 0.3vw solid gold;
+            width: 45vw;
+            margin-top: -14vh; /* Avvicina la riga orizzontale alla scritta GOTTARDO */
         }
         .button-container {
-            margin-top: 25px; /* Avvicina il pulsante alla riga orizzontale */
+            margin-top: 2vh; /* Avvicina il pulsante alla riga orizzontale */
         }
         .button-container button {
             background-color: gold;
             color: black;
             border: none;
-            padding: 10px 20px; /* Aumenta le dimensioni del pulsante */
-            font-size: 1.3em; /* Ingrandisce la scritta nel pulsante */
+            padding: 0.7vh 1.3vw; /* Dimensioni ridotte del pulsante */
+            font-size: 2.2vw; /* Dimensioni ridotte della scritta nel pulsante */
             cursor: pointer;
             font-family: 'Times New Roman', Times, serif; /* Font uguale a quello della scritta GOTTARDO */
             font-weight: bold; /* Rende il testo più cicciotto */
@@ -86,7 +86,7 @@
 
     <script>
         function openPDF() {
-            window.open('MenuCantinaGottardo.pdf', '_blank'); // Sostituisci 'path/to/your/file.pdf' con il percorso reale del PDF
+            window.open('MenuCantinaGottardo.pdf', '_blank'); // Sostituisci 'MenuCantinaGottardo.pdf' con il percorso reale del PDF
         }
     </script>
 </body>
