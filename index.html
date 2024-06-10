@@ -16,21 +16,23 @@
             color: gold;
             font-family: 'Times New Roman', Times, serif;
             text-align: center;
+            padding: 0 5vw; /* Padding per evitare overflow su schermi piccoli */
         }
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 100%;
         }
         .line {
-            border-top: 0.3vw solid gold; /* Dimensioni ridotte delle righe */
-            width: 12vw; /* Ridotta la larghezza delle righe */
-            margin: 0.3vh 0;
+            border-top: 0.5vw solid gold; /* Dimensioni aumentate delle righe */
+            width: 13vw; /* Aumentata la larghezza delle righe */
+            margin: 0.5vh 0; /* Aumentato lo spazio tra le righe */
         }
         .cantina {
             display: flex;
             align-items: center;
-            font-size: 4vw; /* Dimensioni ridotte della scritta CANTINA */
+            font-size: 10vw; /* Dimensioni aumentate della scritta CANTINA */
         }
         .cantina .line-container {
             display: flex;
@@ -38,26 +40,26 @@
             align-items: center;
         }
         .cantina span {
-            margin: 0 0.8vw; /* Regola lo spazio tra la scritta e le righe */
+            margin: 0 3vw; /* Regola lo spazio tra la scritta e le righe */
         }
         .gottardo {
-            margin-top: -1vh; /* Avvicina la scritta GOTTARDO a CANTINA */
-            font-size: 8vw; /* Dimensioni ridotte della scritta GOTTARDO */
+            margin-top: -2vh; /* Avvicina la scritta GOTTARDO a CANTINA */
+            font-size: 14vw; /* Dimensioni aumentate della scritta GOTTARDO */
         }
         .bottom-line {
-            border-top: 0.3vw solid gold;
-            width: 45vw;
-            margin-top: -14vh; /* Avvicina la riga orizzontale alla scritta GOTTARDO */
+            border-top: 0.5vw solid gold;
+            width: 87%; /* Aumentata la larghezza relativa della linea orizzontale */
+            margin-top: -8vh; /* Avvicina la riga orizzontale alla scritta GOTTARDO */
         }
         .button-container {
-            margin-top: 2vh; /* Avvicina il pulsante alla riga orizzontale */
+            margin-top: 5vh; /* Avvicina il pulsante alla riga orizzontale */
         }
         .button-container button {
             background-color: gold;
             color: black;
             border: none;
-            padding: 0.7vh 1.3vw; /* Dimensioni ridotte del pulsante */
-            font-size: 2.2vw; /* Dimensioni ridotte della scritta nel pulsante */
+            padding: 1.5vh 4vw; /* Aumentate le dimensioni del pulsante */
+            font-size: 5vw; /* Aumentate le dimensioni della scritta nel pulsante */
             cursor: pointer;
             font-family: 'Times New Roman', Times, serif; /* Font uguale a quello della scritta GOTTARDO */
             font-weight: bold; /* Rende il testo più cicciotto */
